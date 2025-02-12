@@ -1,9 +1,9 @@
 :root {
-  --bg-color: #2a2a2a;
-  --second-bg-color: #202020;
-  --text-color: #fff;
-  --second-color: #ccc;
-  --main-color: #eba83a;
+  --bg-color: #fdfdff;
+  --second-bg-color: #e8f0e8;
+  --text-color: #2a4b2e;
+  --second-color: #303333;
+  --main-color: #393d3f;
   --big-font: 5.5rem;
   --h2-font: 4rem;
   --p-font: 1.7rem;
@@ -111,7 +111,7 @@ section {
   font-weight: 500;
   border-radius: 5px;
   background: var(--main-color);
-  color: var(--text-color);
+  color: var(--second-color);
 }
 .home__saludo--im {
   font-size: 2rem;
@@ -140,7 +140,7 @@ section {
   margin-bottom: 40px;
 }
 .home__btns--1 {
-  color: var(--text-color);
+  color: var(--second-color);
   font-weight: 600;
   font-size: 1.5rem;
   margin-left: 35px;
@@ -228,9 +228,10 @@ section {
   padding: 35px 45px;
   transition: all 0.45s ease;
 }
-.services__boxes-box i {
-  color: var(--text-color);
+.services__boxes-box img {
+  /* color: var(--text-color); */
   font-size: 32px;
+  height: 32px;
   margin-bottom: 20px;
 }
 .services__boxes-box h3 {
@@ -277,6 +278,7 @@ section {
   color: var(--text-color);
   font-size: var(--h2-font);
   line-height: 1;
+  margin-bottom: 5rem;
 }
 .portfolio__main h3 span {
   color: var(--main-color);
@@ -541,4 +543,4 @@ section {
     background-color: var(--bg-color);
     transition: 0.1s;
   }
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
